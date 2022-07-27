@@ -35,7 +35,7 @@ var (
 )
 
 const (
-	annotationImagepullsecretPatcherExclude = "k8s.titansoft.com/imagepullsecret-patcher-exclude"
+	annotationImagepullsecretPatcherExclude = "k8s.nextpart.io/imagepullsecret-patcher-exclude"
 )
 
 type k8sClient struct {

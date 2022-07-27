@@ -1,4 +1,4 @@
-module github.com/titansoft-pte-ltd/imagepullsecret-patcher
+module github.com/nextpart/imagepullsecret-patcher
 
 go 1.18
 
