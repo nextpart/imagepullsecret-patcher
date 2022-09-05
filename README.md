@@ -36,7 +36,7 @@ And here are the annotations available:
 
 | Annotation                                        | Object    | Description                                                                                                       |
 | ------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------- |
-| k8s.titansoft.com/imagepullsecret-patcher-exclude | namespace | If a namespace is set this annotation with "true", it will be excluded from processing by imagepullsecret-patcher. |
+| k8s.nextpart.io/imagepullsecret-patcher-exclude | namespace | If a namespace is set this annotation with "true", it will be excluded from processing by imagepullsecret-patcher. |
 
 ## Providing credentials
 
@@ -74,4 +74,4 @@ And it could be automated with a simple program like imagepullsecret-patcher.
 
 Development Environment
 
-- Go 1.13
+- Go 1.18
